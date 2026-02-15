@@ -1,0 +1,30 @@
+btc-wallet-educacional/
+│
+├── app/
+│   ├── __init__.py
+│   │
+│   ├── domain/
+│   │   ├── __init__.py
+│   │   ├── seed_generator.py
+│   │   └── wallet.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── wallet_service.py
+│   │
+│   ├── cli/
+│   │   ├── __init__.py
+│   │   └── main.py
+│   │
+│   └── config.py
+│
+├── tests/
+│   ├── test_seed.py
+│   └── test_wallet.py
+│
+├── requirements.txt
+├── pyproject.toml
+├── README.md
+├── LICENSE
+└── .gitignore
+
